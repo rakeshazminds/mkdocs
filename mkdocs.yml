@@ -1,0 +1,42 @@
+site_name: Datafuse Docs
+site_url: https://dev.datafuseai.com
+
+theme:
+  name: 'material'
+  logo: /home/rakesh/Downloads/images.jpeg
+  favicon: images/favicon.ico
+  version:
+    provider: mike
+    separator: '-'
+
+nav:
+  - Home: index.md
+  - Version 1.0:
+      - Home: v1.0/index.md
+      - Installation: v1.0/installation.md
+      - Configuration: v1.0/configuration.md
+      - User Guide:
+          - Getting Started: v1.0/user_guide/getting_started.md
+          - Features: v1.0/user_guide/features.md
+          - Troubleshooting: v1.0/user_guide/troubleshooting.md
+      - Developer Guide:
+          - API Documentation: v1.0/developer_guide/api.md
+          - Code Examples: v1.0/developer_guide/code_examples.md
+          - Contribution Guide: v1.0/developer_guide/contribution.md
+  - Version 2.0(latest):
+      - Home: v2.0/index.md
+      - Installation: v2.0/installation.md
+      - Configuration: v2.0/configuration.md
+      - User Guide:
+          - Getting Started: v2.0/user_guide/getting_started.md
+          - Features: v2.0/user_guide/features.md
+          - Troubleshooting: v2.0/user_guide/troubleshooting.md
+      - Developer Guide:
+          - API Documentation: v2.0/developer_guide/api.md
+          - Code Examples: v2.0/developer_guide/code_examples.md
+          - Contribution Guide: v2.0/developer_guide/contribution.md
+
+plugins:
+  - search
+  - awesome-pages
+ 
